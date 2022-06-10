@@ -3,7 +3,7 @@ kind: Th2Box
 metadata:
   name: codec-csv
 spec:
-  image-name: nexus.exactpro.com:12000/th2-net/th2-codec-csv
+  image-name: ghcr.io/th2-net/th2-codec-csv
   image-version: 3.1.0
   imagePullSecrets:
     - name: th2-core

@@ -3,7 +3,7 @@ kind: Th2Estore
 metadata:
   name: estore
 spec:
-  image-name: nexus.exactpro.com:12000/th2-net/th2-estore
+  image-name: ghcr.io/th2-net/th2-estore
   image-version: 3.6.0
   custom-config:
     cradleInstanceName: instance1

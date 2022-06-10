@@ -3,7 +3,7 @@ kind: Th2Box
 metadata:
   name: demo-dc2
 spec:
-  image-name: nexus.exactpro.com:12000/th2-net/th2-conn-fix
+  image-name: ghcr.io/th2-net/th2-conn-fix
   image-version: 3.2.1
   imagePullSecrets:
     - name: th2-core

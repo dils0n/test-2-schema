@@ -3,7 +3,7 @@ kind: Th2CoreBox
 metadata:
   name: act-ui-backend
 spec:
-  image-name: nexus.exactpro.com:12000/th2-net/th2-act-ui-backend
+  image-name: ghcr.io/th2-net/th2-act-ui-backend
   image-version: 0.3.0
   type: th2-rpt-data-provider
   custom-config:

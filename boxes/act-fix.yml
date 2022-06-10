@@ -3,7 +3,7 @@ kind: Th2Box
 metadata:
   name: act-fix
 spec:
-  image-name: nexus.exactpro.com:12000/th2-net/th2-act-template-j
+  image-name: ghcr.io/th2-net/th2-act-template-j
   image-version: 3.5.0
   imagePullSecrets:
     - name: th2-core

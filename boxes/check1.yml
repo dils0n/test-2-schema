@@ -3,7 +3,7 @@ kind: Th2Box
 metadata:
   name: check1
 spec:
-  image-name: nexus.exactpro.com:12000/th2-net/th2-check1
+  image-name: ghcr.io/th2-net/th2-check1
   image-version: 3.9.0
   imagePullSecrets:
     - name: th2-core
