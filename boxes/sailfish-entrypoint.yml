@@ -1,0 +1,23 @@
+apiVersion: th2.exactpro.com/v1
+kind: Th2Box
+metadata:
+  name: sailfish-entrypoint
+spec:
+  image-name: stub
+  image-version: stub
+  imagePullSecrets:
+    - name: th2-core
+  # FIXME: add the sailfish type into helm chart and replace value below
+  type: th2-cradle-viewer
+  pins:
+    - name: message_raw
+      connection-type: mq
+      attributes:
+        - raw
+        - publish
+        - store
+  extended-settings:
+    externalBox:
+      enabled: true
+    service:
+      enabled: false
